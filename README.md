@@ -1,4 +1,5 @@
 # restaurant review app
+
 ## introduction
 this is my restaurant review app project for the udacity nanodegree scholarship:
  The provided code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all.So first off all i changed some css and added some media queries to make the website responsive and for a better experience using multiple devices, Next i made sure that the Accessibility meets the Aria specification using what i've learned in the course and the screen reader, last but not least i used a service worker to cache responses to requests for site assets so that the Visited pages are rendered when there is no network acces .
@@ -17,6 +18,4 @@ this is my restaurant review app project for the udacity nanodegree scholarship:
 
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
 
-### Note about ES6
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future-proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
