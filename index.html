@@ -14,16 +14,18 @@
 </head>
 <body>
   <header>
+    <!-- skip-link for skipping the map and heading to the main content -->
+      <a href='#mainfilter' class='skip-link' >to the main content </a>
+
     <nav>
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
-
   <main id="maincontent">
-    <section aria-label="map for the restaurant"  id="map-container">
-      <div  id="map"></div>
+    <section aria-label="map for the restaurant" id="map-container">
+      <div id="map" role="application"></div>
     </section>
-    <section>
+    <section id="mainfilter" tabindex="-1">
       <div class="filter-options">
         <h2>Filter Results</h2>
         <select aria-label="filter by neighborhood" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">

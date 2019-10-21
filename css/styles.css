@@ -1,6 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
-
+.skip-link {
+  position: absolute;
+  top: -40px;
+  color:white;
+  padding:5px;
+  background-color: RED;
+}
+.skip-link:focus{
+  top:0;
+}
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
@@ -372,9 +381,11 @@ nav h1 a {
   
   /* map*/
   .inside #map-container {
-    height: 10%;
+    position: static;
     width: 100%;
-    position: absolute;
+    height: 40vh;
+    margin-bottom: 30px;
+    
   }
   /*content*/
   .inside header {
@@ -419,7 +430,6 @@ nav h1 a {
   font-weight: 200;
   letter-spacing: 0;
   margin: 15px 0 30px;
-  margin-top: 160px;
  text-align: center;
   text-transform: uppercase;
   line-height: 1.1;
@@ -577,7 +587,6 @@ margin-left: 7%;
     font-weight: 200;
     letter-spacing: 0;
     margin: 15px 0 30px;
-    margin-top: 160px;
    text-align: center;
     text-transform: uppercase;
     line-height: 1.1;
